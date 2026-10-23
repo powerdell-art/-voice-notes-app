@@ -1,0 +1,58 @@
+/* Tabs */
+"tab.record" = "Record";
+"tab.history" = "History";
+"tab.settings" = "Settings";
+
+/* Record */
+"record.start" = "Start Recording";
+"record.stop" = "Stop";
+"record.pause" = "Pause";
+"record.resume" = "Resume";
+"record.livePlaceholder" = "Your words will appear here as you speak…";
+"record.refining" = "Refining transcript…";
+"record.saved" = "Saved";
+"record.viewDetail" = "View recording";
+"record.defaultTitle" = "Recording";
+
+/* Errors */
+"error.title" = "Something went wrong";
+"error.ok" = "OK";
+"error.speechDenied" = "Speech recognition permission is off. Turn it on in Settings to transcribe your recordings.";
+"error.micDenied" = "Microphone permission is off. Turn it on in Settings to record.";
+"error.recognizerUnavailable" = "Speech recognition isn't available for the selected language right now. Please try again later.";
+"error.recognitionFailed" = "Transcription failed. Please try again.";
+"error.exportFailed" = "Couldn't process that audio file.";
+"error.importFailed" = "Couldn't import that file. The format may not be supported.";
+
+/* History */
+"history.empty.title" = "No recordings yet";
+"history.empty.message" = "Record something, or import an audio file to transcribe it.";
+"history.search.prompt" = "Search title or text";
+"history.import" = "Import audio";
+"history.noTranscript" = "No transcript yet";
+"history.transcribing" = "Transcribing…";
+
+/* Detail */
+"detail.titlePlaceholder" = "Title";
+"detail.play" = "Play";
+"detail.pause" = "Pause";
+"detail.copy" = "Copy text";
+"detail.copied" = "Copied";
+"detail.share" = "Share";
+"detail.export" = "Export .txt";
+"detail.transcriptPlaceholder" = "The transcript will appear here. You can edit it anytime.";
+"detail.deleted" = "This recording was deleted.";
+
+/* Settings */
+"settings.language.section" = "Recognition";
+"settings.language" = "Language";
+"settings.language.zh" = "Chinese (Mandarin)";
+"settings.language.en" = "English (US)";
+"settings.onDevice" = "On-device recognition";
+"settings.supported" = "Supported";
+"settings.notSupported" = "Not supported — Apple's servers will be used";
+"settings.privacy.section" = "Privacy";
+"settings.privacy.text" = "Your recordings and transcripts are stored only on this device and are never uploaded by the app. Transcription uses Apple's Speech framework and runs on-device whenever your device and language support it. If on-device recognition is unavailable, Apple's servers perform the recognition under Apple's privacy policy.";
+"settings.about.section" = "About";
+"settings.version" = "Version";
+"settings.developer" = "Developer";
