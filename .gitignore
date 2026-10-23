@@ -1,0 +1,16 @@
+# XcodeGen 生成物
+*.xcodeproj
+
+# Xcode / 构建产物
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+xcuserdata/
+*.xcuserstate
+
+# 密钥绝不进仓库
+*.p8
+private_keys/
+
+.DS_Store
