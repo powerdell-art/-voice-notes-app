@@ -11,7 +11,7 @@ jobs:
   # ---------- 作业 1：无签名编译检查（不需要任何 Secrets，每次都会跑） ----------
   build-check:
     name: Build check (no signing)
-    runs-on: macos-14
+    runs-on: macos-15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,7 +41,7 @@ jobs:
   testflight:
     name: Archive & upload to TestFlight
     if: github.event_name == 'workflow_dispatch'
-    runs-on: macos-14
+    runs-on: macos-15
     needs: build-check
     steps:
       - name: Checkout
