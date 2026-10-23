@@ -2,6 +2,7 @@
 # 仓库不提交 .xcodeproj，本地与 CI 都由本文件现生成，保证可复现。
 name: VoiceNotes
 options:
+  projectFormat: xcode15
   bundleIdPrefix: com.dongzhou
   deploymentTarget:
     iOS: "17.0"
