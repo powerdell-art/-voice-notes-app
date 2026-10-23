@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Voice Notes";
+"NSMicrophoneUsageDescription" = "Voice Notes needs microphone access to record your voice so it can be transcribed into text.";
+"NSSpeechRecognitionUsageDescription" = "Voice Notes uses speech recognition to turn your recordings into text, on-device whenever possible. Your recordings are never uploaded by the app.";
