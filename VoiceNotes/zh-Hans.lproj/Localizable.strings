@@ -1,0 +1,58 @@
+/* 标签页 */
+"tab.record" = "录音";
+"tab.history" = "历史";
+"tab.settings" = "设置";
+
+/* 录音 */
+"record.start" = "开始录音";
+"record.stop" = "停止";
+"record.pause" = "暂停";
+"record.resume" = "继续";
+"record.livePlaceholder" = "开始说话，转写文字会实时出现在这里…";
+"record.refining" = "正在生成精转文本…";
+"record.saved" = "已保存";
+"record.viewDetail" = "查看这条记录";
+"record.defaultTitle" = "录音";
+
+/* 错误 */
+"error.title" = "出了点问题";
+"error.ok" = "好的";
+"error.speechDenied" = "语音识别权限未开启，请到系统设置里打开后再转写。";
+"error.micDenied" = "麦克风权限未开启，请到系统设置里打开后再录音。";
+"error.recognizerUnavailable" = "所选语言的语音识别暂时不可用，请稍后再试。";
+"error.recognitionFailed" = "转写失败，请再试一次。";
+"error.exportFailed" = "处理这段音频失败。";
+"error.importFailed" = "导入失败，该音频格式可能不受支持。";
+
+/* 历史 */
+"history.empty.title" = "还没有录音";
+"history.empty.message" = "录一段，或导入一个音频文件来转文字。";
+"history.search.prompt" = "搜索标题或全文";
+"history.import" = "导入音频";
+"history.noTranscript" = "暂无转写文本";
+"history.transcribing" = "转写中…";
+
+/* 详情 */
+"detail.titlePlaceholder" = "标题";
+"detail.play" = "播放";
+"detail.pause" = "暂停";
+"detail.copy" = "复制全文";
+"detail.copied" = "已复制";
+"detail.share" = "分享";
+"detail.export" = "导出 .txt";
+"detail.transcriptPlaceholder" = "转写文本会显示在这里，可以随时编辑。";
+"detail.deleted" = "这条记录已被删除。";
+
+/* 设置 */
+"settings.language.section" = "语音识别";
+"settings.language" = "识别语言";
+"settings.language.zh" = "中文（普通话）";
+"settings.language.en" = "英文（美国）";
+"settings.onDevice" = "设备端识别";
+"settings.supported" = "支持";
+"settings.notSupported" = "不支持 — 将使用苹果服务器识别";
+"settings.privacy.section" = "隐私";
+"settings.privacy.text" = "你的录音和转写文本只保存在这台设备上，本应用不会上传任何数据。转写使用苹果 Speech 框架，在设备和语言支持时优先在本机完成；若设备端识别不可用，识别将由苹果服务器按苹果隐私政策完成。";
+"settings.about.section" = "关于";
+"settings.version" = "版本";
+"settings.developer" = "开发者";
